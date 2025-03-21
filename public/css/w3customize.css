@@ -1,0 +1,46 @@
+.w3-container:after,
+.w3-container:before,
+.w3-panel:after,
+.w3-panel:before,
+.w3-row:after,
+.w3-row:before,
+.w3-row-padding:after,
+.w3-row-padding:before,
+.w3-cell-row:before,
+.w3-cell-row:after,
+.w3-clear:after,
+.w3-clear:before,
+.w3-bar:before,
+.w3-bar:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.w3-col.m4,
+.w3-third {
+    width: 25%;
+}
+
+.w3-col,
+.w3-half,
+.w3-third,
+.w3-twothird,
+.w3-threequarter,
+.w3-quarter {
+    float: left;
+    width: 100%;
+}
+
+.w3-bottombar {
+    border-bottom: 6px solid #ccc!important;
+}
+
+.w3-padding {
+    padding: 8px 16px!important;
+}
+
+.w3-border-customize,
+.w3-hover-border-customize:hover {
+    border-color: #27619c!important;
+}
