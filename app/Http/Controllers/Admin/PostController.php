@@ -39,13 +39,11 @@ class PostController extends Controller
             $request->all(), 
             [
                 'title' => ['required', 'max:255'],
-                'image' => ['required'],
                 'sub_content' => ['required'], 
                 'content' => ['required'], 
             ], 
             $messages = [
                 'title.required' => 'Tiêu đề bài viết là bắt buộc', 
-                'image.required' => 'Ảnh bài viết là bắt buộc', 
                 'sub_content.required' => 'Tóm tắt bài viết là bắt buộc',
                 'content.required' => 'Nội dung bài viết là bắt buộc',
             ]

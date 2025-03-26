@@ -744,7 +744,7 @@
                             </div>
                         </div>
                     </article>
-                    <div class="fb-comments" data-href="http://benxetaukiengiang.vn/" data-width="100%" data-numposts="5"></div>
+                    <div class="fb-comments" data-href="benxetaukiengiang.vn/posts/{{ $post->id }}" data-width="100%" data-numposts="5"></div>
                 </div>
             </main>
         </div>
